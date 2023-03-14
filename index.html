@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <a href="#navigation" class="skiplinks">Navigation</a>
+    <a href="#maincontent" class="skiplinks">Skip Navigation</a>
+
     <header>
        
             <img src="images/Asset_1.png" alt="Pagrachu-Logo" class="logo" height="90">
@@ -23,7 +26,7 @@
             <img src="images/Asset_6.png" alt="Pagrachu-Title-and-Slogan" height="80">
         </div>    
         <nav>
-            <ul>
+            <ul id="navigation">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
                 <li><a href="menu.html">MENU</a></li>
@@ -33,53 +36,57 @@
     </header>
 
 <!---------------------------------------------------------------------MAIN CONTENT--------------------------------------------------------->
-    <main>
-        
-            <div class="bghomeimage"> 
-                <img src="images/background-home.jpg" class="backgroundhome" alt="making-food">
-                <div class="overlaytext">"Home Away From Home..."</div>
-            </div>
-
-            <div class="reserve"> 
-                <button class="resbutton">RESERVE A TABLE OR ORDER NOW</button>
-            </div>
-
-            <div class="locationbar"> 1385 Woodroffe Ave, Nepean, ON K2G 1V8 </div>
-        
+    <div id="maincontent" class="container body-content">
+        <main>
             
-        <iframe src="Mobile_Wireframes.pdf" class="pdffile"></iframe>
-        <!----Initially, I wanted to use the actual link to my interactive prototype, however there were ways for me to do that, for me at least. It would have been a great touch to the midterm if you could interact with it. Here is my prototype if you are interested in viewing it https://xd.adobe.com/view/e7e37120-ffbf-4d4c-9319-8bc3a31e670e-b2b0/------>
-    
- <!---------------------------------------------------------------------MAIN CONTENT------------------------------------------------->   
+                <div class="bghomeimage"> 
+                    <img src="images/background-home.jpg" class="backgroundhome" alt="making-food">
+                    <div class="overlaytext">"Home Away From Home..."</div>
+                </div>
 
-        <div class="footercontainer">
+                <div class="reserve"> 
+                    <button class="resbutton">RESERVE A TABLE OR ORDER NOW</button>
+                </div>
 
-            <div class="footertwo">
-                <h5> HOURS & CONTACT</h5>
-                    <a href="#"> Pagrachu@email.com </a>
-                    <a href="#"> (613) xxx - xxxx </a> 
-            </div>
-    
-            <div class="footerthree">
-                <h5> ADRESS </h5>
-                <a href="#"> 1385 Woodroffe Ave, Nepean, ON K2G 1V8 </a>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459781!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1678726968724!5m2!1sen!2sca" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                <div class="locationbar"> 1385 Woodroffe Ave, Nepean, ON K2G 1V8 </div>
+            
+                
+            <iframe src="Mobile_Wireframes.pdf" class="pdffile"></iframe>
+            <!----Initially, I wanted to use the actual link to my interactive prototype, however there were ways for me to do that, for me at least. It would have been a great touch to the midterm if you could interact with it. Here is my prototype if you are interested in viewing it https://xd.adobe.com/view/e7e37120-ffbf-4d4c-9319-8bc3a31e670e-b2b0/------>
 
-            <div class="footerfour">
-                <h5> FOLLOW </h5>
-                <a href="#"> Twitter </a>
-                <a href="#"> Instagram </a>
-                <a href="#"> Facebook </a>
-            </div>
-        </div>
         
-        <div class="orangefooter"> footer </div>
-    
-    </main>
-    <!---I decided to split the footer up in two parts. I designed it this way according to my prototype. However, I wanted to keep them seprate so it can be easily traced if I were to make a mistake or want to change certain code for my other pages. There would not be any major differences anyways since it would be the same throughout, but I wanted to stay organzed if I needed it--->
+        </main>          
+    </div>      
+    <!------------------------------------------------------------------MAIN CONTENT-------------------------------------------------------->
+            <div id="#footercontent" class="footercontainer">
+
+                <div class="footertwo">
+                    <h5> HOURS & CONTACT</h5>
+                        <a href="#"> Pagrachu@email.com </a>
+                        <a href="#"> (613) xxx - xxxx </a> 
+                </div>
+        
+                <div class="footerthree">
+                    <h5> ADRESS </h5>
+                    <a href="#"> 1385 Woodroffe Ave, Nepean, ON K2G 1V8 </a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459781!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1678726968724!5m2!1sen!2sca" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="footerfour">
+                    <h5> FOLLOW </h5>
+                    <a href="#"> Twitter </a>
+                    <a href="#"> Instagram </a>
+                    <a href="#"> Facebook </a>
+                </div>
+            </div>
+            
+            <div class="orangefooter"> footer </div>
+        
+        </main>
+        <!---I decided to split the footer up in two parts. I designed it this way according to my prototype. However, I wanted to keep them seprate so it can be easily traced if I were to make a mistake or want to change certain code for my other pages. There would not be any major differences anyways since it would be the same throughout, but I wanted to stay organzed if I needed it--->
 
     <footer> 
+        <a href="#top"> Back To Top </a>
         <h6> © Pagrachu Ottawa est. 2019 </h6> 
         <img src="images/Asset_1.png" alt="Pagrachu-Logo" class="logo2" height="90"> 
         <img src="images/thankyouright.png" alt="Thank You" height="90"> 
