@@ -178,6 +178,42 @@ main{
     border-radius: 50%;
 }
 
+.popupone img {
+    transition: .5s ease;
+    }
+    
+    .popupone img:hover{
+    box-shadow:
+    2px 2px #F2683E,
+    3px 3px #F2683E,
+    4px 4px #F2683E,
+    5px 5px #F2683E,
+    6px 6px #F2683E,
+    7px 7px #F2683E;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    }
+
+
+.popup img {
+    transition: .5s ease;
+    }
+    
+    .popup img:hover{
+    box-shadow:
+    2px 2px #F2683E,
+    3px 3px #F2683E,
+    4px 4px #F2683E,
+    5px 5px #F2683E,
+    6px 6px #F2683E,
+    7px 7px #F2683E;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    }
+
+
 .h2divale {
     padding-left: 110px;
 }
@@ -219,7 +255,7 @@ video {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
 }
 
@@ -231,6 +267,7 @@ video {
 
 .hoursandcontact .one h2 {
     color: white;
+    text-decoration: underline;
 }
 
 .hoursandcontact .one a {
@@ -249,6 +286,28 @@ video {
     height: 100%;
 }
 
+.socialmedia {
+    background-color: #B94A9C;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.tw {
+    height: 100px;
+    width: 100px;
+}
+
+.ig {
+    height: 102px;
+    width: 102px;
+}
+
+.fb {
+    height: 100px;
+    width: 100px;
+}
 
 #tableres{
     text-align: center;
