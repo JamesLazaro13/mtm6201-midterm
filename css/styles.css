@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------MY STYLES----------------------------------------------------*/
+/*------------------------------------------vvvv------------------MY STYLES-------------vvvv-----------------------------------------------*/
 
 *{
     margin: 0px;
@@ -14,7 +14,10 @@ p {
 
 }
 
-/*---------------------------------------------------------------------------------HEADER----------------------------------------------*/
+
+
+/*-----------------------------------------------------------------HEADER------------------------------------------------------------------*/
+
 header {
     display: flex;
     align-items: center;
@@ -45,7 +48,9 @@ header li a:hover {
     transition: 0.4s ease-in-out;
 }
 
-/*------------------------------------------------------HEADINGS------------------------------------------*/
+
+
+/*-------------------------------------------------------------------HEADINGS-------------------------------------------------------------*/
 
 h1 {
     font-weight: bold;
@@ -70,7 +75,10 @@ h5 {
 
 }
 
-/*--------------------------------------------------HOME PAGE--------------------------------------------*/
+
+
+/*------------------------------------------------------------HOME PAGE-------------------------------------------------------------------*/
+
 .slogan{
     margin-right: auto;
     padding-top: 15px;
@@ -92,13 +100,14 @@ h5 {
    color: black;
 }
 
-.bg {
+.bg {                                                               /* bg is short for background */
     opacity: 50%;
     background-position: center center;
     background-position: 20% 40%;
     background-size: 100px 100px;
       
 }
+
 
 .reserve{
     width: 100%;  
@@ -111,7 +120,7 @@ h5 {
 }
 
 
-.resbutton {
+.resbutton {                                                        /* "resbutton" is short for "reservation button"*/
     width: 930px;
     height:100px;
     font-size: 50px;
@@ -122,15 +131,22 @@ h5 {
     box-shadow: inset 0 0 0 0 #4CDAFF;
     transition: ease-out 0.4s;
     outline: none;
-}
+} 
 
-.resbutton:hover {
-    box-shadow: inset 930px 0 0 0 #4CDAFF;
-    color: black;
-    cursor: pointer;
-}
 
-.locationbar {
+
+.resbutton:hover {                                  
+    box-shadow: inset 930px 0 0 0 #4CDAFF;     
+    color: black;                                 
+    cursor: pointer;    
+}
+/*this hover is smooth and not too flashy. I found that it was a good mix of coloures
+as it was according to my original colour palette. Adding on,this tranistion can effect 
+a users expereince positivly by seeing this quick, smooth tranistion and getting their 
+attention*/                          
+                                            
+
+.locationbar {                                  /* class name was chosen for organization and similarity to what is being shown. */
     width: 100%;
     height: 80px;
     font-size: 30px;
@@ -146,12 +162,14 @@ main{
     background-color: #EBEAD7;
 }
 
-.pdffile {
+.pdffile {                                          /* class name is p-d-f-file*/
     width: 100%;
     height: 1000px;
 }
 
-/*----------------------------------------------------------------------ABOUT US PAGE--------------------------------------------*/
+
+/*----------------------------------------------------------------------ABOUT US PAGE-----------------------------------------------------*/
+
 .colombiaflag {
     border-radius: 50%;
 }
@@ -178,51 +196,52 @@ main{
     padding-bottom: 80px;
 }
 
-.ale {
+.ale {                                                      /*ale is short for Alejandro*/
     border-radius: 50%;
 }
+
 
 .popupone img {
     transition: .5s ease;
     }
     
-    .popupone img:hover{
-    box-shadow:
-    2px 2px #F2683E,
-    3px 3px #F2683E,
-    4px 4px #F2683E,
-    5px 5px #F2683E,
-    6px 6px #F2683E,
-    7px 7px #F2683E;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: .5s ease;
-    }
+        .popupone img:hover{
+            box-shadow:
+            2px 2px #F2683E,
+            3px 3px #F2683E,                                /*I chose these to go with these hover affects to sublty highlight the images 
+            4px 4px #F2683E,                                     involved in this page. Since my website consists of a bright colour palette,
+            5px 5px #F2683E,                                    having a calm animation kept that balance*/
+            6px 6px #F2683E,
+            7px 7px #F2683E;
+            -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+            transition: .5s ease;
+            }
 
 
 .popup img {
     transition: .5s ease;
     }
     
-    .popup img:hover{
-    box-shadow:
-    2px 2px #F2683E,
-    3px 3px #F2683E,
-    4px 4px #F2683E,
-    5px 5px #F2683E,
-    6px 6px #F2683E,
-    7px 7px #F2683E;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: .5s ease;
-    }
+        .popup img:hover{
+            box-shadow:
+            2px 2px #F2683E,
+            3px 3px #F2683E,
+            4px 4px #F2683E,
+            5px 5px #F2683E,
+            6px 6px #F2683E,
+            7px 7px #F2683E;
+            -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+            transition: .5s ease;
+            }
 
 
 .h2divale {
     padding-left: 110px;
 }
 
-#aleabout {
+#aleabout {                                                 /* using id tags saved me for isolation text without making seprate divs*/
     font-size: 27px;
 }
 
@@ -237,6 +256,9 @@ video {
     padding-bottom: 30px;
 }
 
+
+
+
 /*--------------------------------------------------------------------MENU PAGE----------------------------------------------------------*/
 
 #menutitle{
@@ -248,8 +270,12 @@ video {
     width: 100%;
 }
 
+
+
+
 /*-----------------------------------------------------------------------CONTACT PAGE----------------------------------------------------*/
-.hoursandcontact {
+
+.hoursandcontact {                              
     background-color: #B94A9C;
     height: 600px;
     width: 100%;
@@ -262,6 +288,8 @@ video {
     padding-top: 40px;
     padding-bottom: 30px;
 }
+                                        /*used display flex instead of display grid due to the fluidness of flexbox. I found that I had more capabilitties working  with flexbox to slove how I wanted to format the top of this page. I originally was going to use display grid, however I just found myself in a loop of tedious trial and error. WIth Flex box, I understand it more and were able to figure out the proper sizes for each element.*/
+
 
 .hoursandcontact .one {
     width: 50%;
@@ -347,7 +375,6 @@ form {
 
 
 
-
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
 .footercontainer {
     background-color: #2E3192;
@@ -384,7 +411,7 @@ form {
     flex-direction: column;
     margin-right: 4rem;
 }
-/*------footer styles of "a" tags-----------*/
+/*--------------------------------------------------------------FOOTER STYLES WITH "A" TAGS--------------------------------------------*/
 
 .footertwo a{
     color: white;
@@ -426,8 +453,9 @@ form {
     height: 20px;
     color: #F2683E;
 }
+/* was a 
 
-/* footer styles */
+/*--------------------------------------------------------------------FOOTER STYLES----------------------------------------------------- */
 footer {
     background-color: #B94A9C;
     width: 100%;
@@ -442,7 +470,7 @@ h6 {
     display: inline-block;
     align-self: flex-end;
 }
-
+/* h6's were not used at all and I wanted to give the footers a different style. I figured, if it has not been used yet, I can really isolate and further its purpose in the footer for the website*/
 
 /* Desktop Styles */
 
