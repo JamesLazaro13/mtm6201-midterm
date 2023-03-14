@@ -187,8 +187,14 @@ main{
 
 #videotag {
     text-align: center;
+    padding-bottom: 20px;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
 .footercontainer {
     background-color: #2E3192;
