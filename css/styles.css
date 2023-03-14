@@ -35,9 +35,21 @@ header li a{
     font-size: 25px;
 }
 
+header li a:hover {
+    color: #F2683E;
+    transition: 0.4s ease-out;
+}
+
 .slogan{
     margin-right: auto;
     padding-top: 15px;
+}
+
+h5 {
+    margin-bottom: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 .backgroundhome {
@@ -67,11 +79,11 @@ header li a{
     display: flex;  
     justify-content: center;  
     align-items: center;  
-    background-color: #F2683E;
+    background-color:#EBEAD7;
 }
 
 .reserbutton{
-    background-color:#2E3192;
+    background-color:#F2683E;
     width: 70%;
     height:100px;
     font-size: 50px;
@@ -96,9 +108,81 @@ main{
     background-color: #EBEAD7;
 }
 
-footer {
+.footercontainer {
     background-color: #2E3192;
     width: 100%;
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footerone {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footertwo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footerthree {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footerfour {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+/*------footer styles of "a" tags-----------*/
+
+.footertwo a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footertwo a:hover{
+    color: #F2683E;
+    transition: 0.4s ease-out;
+}
+
+.footerthree p{
+    margin-bottom: 0.5rem;
+}
+.footerfour a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footerfour a:hover{
+    color: #F2683E;
+    transition: 0.4s ease-out;
+}
+
+
+footer {
+    background-color: #B94A9C;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg {
+
 }
 /* Desktop Styles */
 
