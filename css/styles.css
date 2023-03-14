@@ -52,7 +52,8 @@ h1 {
     font-size: 80px;
     stroke: #F2683E 2px;
     color: #F2683E;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 35%;
 
 }
@@ -149,8 +150,9 @@ main{
 .aboutpage {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
@@ -202,9 +204,17 @@ main{
     transition: 0.4s ease-out;
 }
 
-.footerthree p{
-    margin-bottom: 0.5rem;
+.footerthree a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
 }
+
+.footerthree a:hover{
+    color: #F2683E;
+    transition: 0.4s ease-out;
+}
+
 .footerfour a {
     color: white;
     text-decoration: none;
