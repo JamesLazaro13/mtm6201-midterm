@@ -144,16 +144,12 @@ main{
     width: 300px;
     height: 300px;
     object-fit: contain;
-    padding-left: 70px;
 }
 
-.paragraphaboutone {
-    padding-right: 70px;
-}
-
-
-.aboutone {
+.aboutpage {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
