@@ -175,14 +175,15 @@ footer {
     background-color: #B94A9C;
     width: 100%;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.footerimg {
-
+h6 {
+    display: inline-block;
+    align-self: flex-end;
 }
 /* Desktop Styles */
 
