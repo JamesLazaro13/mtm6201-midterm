@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -52,10 +52,16 @@ h1 {
     font-size: 80px;
     stroke: #F2683E 2px;
     color: #F2683E;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 60px;
     padding-left: 35%;
 
+}
+
+h2 { 
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 h5 {
@@ -142,17 +148,45 @@ main{
 
 /*----------------------------------------------------------------------ABOUT US PAGE--------------------------------------------*/
 .colombiaflag {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
+    border-radius: 50%;
 }
 
 .aboutpage {
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.abouttwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.ale {
+    border-radius: 50%;
+}
+
+.h2divale {
+    padding-left: 110px;
+}
+
+#aleabout {
+    font-size: 27px;
+}
+
+#videotag {
+    text-align: center;
 }
 
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
