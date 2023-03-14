@@ -1,4 +1,4 @@
-/* Main Mobile Styles */
+/*----------------------------------------------------------------Main Mobile Styles----------------------------------------------*/
 
 *{
     margin: 0px;
@@ -14,7 +14,7 @@ p {
 
 }
 
-/*--------------------------------------------------------HEADER----------------------------------------------*/
+/*---------------------------------------------------------------------------------HEADER----------------------------------------------*/
 header {
     display: flex;
     align-items: center;
@@ -208,6 +208,83 @@ video {
     width: 100%;
 }
 
+/*-----------------------------------------------------------------------CONTACT PAGE----------------------------------------------------*/
+.hoursandcontact {
+    background-color: #B94A9C;
+    height: 600px;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hoursandcontact .one {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+}
+
+.hoursandcontact .one h2 {
+    color: white;
+}
+
+.hoursandcontact .one a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.hoursandcontact .one a:hover {
+    color: #F2683E;
+    transition: 0.4s ease-in-out;
+}
+
+.hoursandcontact .block {
+    width: 50%;
+    height: 100%;
+}
+
+
+#tableres{
+    text-align: center;
+    padding-top: 40px ;
+    padding-bottom: 20px;
+}
+
+.table ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.table li{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
 .footercontainer {
     background-color: #2E3192;
@@ -297,7 +374,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
 
 h6 {
     display: inline-block;
