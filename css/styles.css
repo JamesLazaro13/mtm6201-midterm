@@ -171,6 +171,14 @@ main{
 }
 
 
+.orangefooter{
+    background-color: #F2683E;
+    width: 100%;
+    height: 20px;
+    color: #F2683E;
+}
+
+/* footer styles */
 footer {
     background-color: #B94A9C;
     width: 100%;
@@ -181,10 +189,13 @@ footer {
     justify-content: space-between;
 }
 
+
 h6 {
     display: inline-block;
     align-self: flex-end;
 }
+
+
 /* Desktop Styles */
 
 @media screen and (min-width: 1200px) {
