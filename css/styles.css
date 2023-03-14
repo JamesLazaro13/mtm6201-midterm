@@ -40,10 +40,9 @@ header li a{
     padding-top: 15px;
 }
 
-.bghomeimage {
-    background-image: url("..images/background-home.jpg");
-    background-position: center center;
-    background-size: cover;
+.backgroundhome {
+    opacity: 50%;
+    
 }
 
 .overlaytext {
@@ -77,6 +76,18 @@ header li a{
     font-size: 50px;
     font-style:normal;
     color: aliceblue;
+}
+
+.locationbar {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    font-style: normal;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#B94A9C ;
 }
 
 /* Desktop Styles */
