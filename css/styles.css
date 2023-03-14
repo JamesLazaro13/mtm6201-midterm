@@ -52,9 +52,9 @@ h1 {
     font-size: 80px;
     stroke: #F2683E 2px;
     color: #F2683E;
+    text-align: center;
     padding-top: 80px;
     padding-bottom: 60px;
-    padding-left: 35%;
 
 }
 
@@ -197,6 +197,18 @@ video {
     margin: 0 auto;
     padding-bottom: 30px;
 }
+
+/*--------------------------------------------------------------------MENU PAGE----------------------------------------------------------*/
+
+#menutitle{
+    text-align: center;
+}
+
+.menuone {
+    height: 100%;
+    width: 100%;
+}
+
 /*---------------------------------------------------------------------FOOTER------------------------------------------------------------*/
 .footercontainer {
     background-color: #2E3192;
